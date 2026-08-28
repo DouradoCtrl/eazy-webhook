@@ -1,0 +1,27 @@
+# Node.js / Angular
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Go Binários e Builds
+golang/eazy-webhook-backend
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Variáveis de ambiente e segredos
+.env
+.env.local
+.env.*.local
+
+# Logs e arquivos do sistema operacional
+*.log
+.DS_Store
+Thumbs.db
